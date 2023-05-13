@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Super mario in real life">
+    <meta name="author" content="Arnar">
+    <title>Takk fyrir</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/tabla.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/custom.css"-->
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="icon" type="image/svg" href="images/logo.svg">
+</head>
+<body id="top">
+  <input class="hidden" id="menu" type="checkbox"/>
+  <nav class="topheader">
+    <div class="topnav nav-width">
+      <h1 class="title"><a href="index.html">Arnar Air</a> <img src="images/logo.svg" alt="image"></h1>
+      <label class="menuButton"for="menu"><h1>&#8801;</h1></label>
+      <div class="nav-ul-horizontal">
+        <li class="nav-li-horizontal"><a href="boka_flug.html"><span class="icon-airplane"></span>Bóka flug</a></li>
+        <li class="nav-li-horizontal"><a href="#popup"><span class="icon-user"></span>Skrá inn</a></li>
+        <li class="nav-li-horizontal"><a href="um_okkur.html"><span class="icon-info"></span>Um okkur</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <div class="nav-ul">
+    <li class="nav-li"><div class="nav-width"><a href="boka_flug.html"><span class="icon-airplane"></span> Bóka flug</a></div></li>
+    <li class="nav-li"><div class="nav-width"><a href="#popup"><span class="icon-user"></span> Skrá inn</a></div></li>
+    <li class="nav-li"><div class="nav-width"><a href="um_okkur.html"><span class="icon-info"></span> Um okkur</a></div></li>
+  </div>
+  <header class="nav-width">
+    <h1 class="centre takk2">Takk fyrir</h1>
+  </header>
+
+  <footer class="container">
+    <div class="col-3 gap footer">
+      <section>
+        <ul class="sizeFonts">
+          <li><span class="icon-play"></span> <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Youtube</a></li>
+          <li><span class="icon-facebook2"></span> <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Facebook</a></li>
+          <li><span class="icon-instagram"></span> <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Instagram</a></li>
+          <li><span class="icon-twitter"></span> <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">Twitter</a></li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>Ef þú hefur einhverjar athugasemdir</li>
+          <li>vinsamlegast ekki hika við að hafa samband við okkur</li>
+          <li>með því að nota snertingareyðublaðið á þessari síðu.</li>
+          <li>Við vonum að þér hafi fundist þessar upplýsingar gagnlegar</li>
+        </ul>
+      </section>
+      <section>
+        <dl>
+            <dt>Nafn:</dt>
+            <dd>Arnar Karlsson</dd>
+            <dt>tölvupóstur:</dt>
+            <dd>arnark060606@gmail.com</dd>
+            <dt>Áfangi og braut:</dt>
+            <dd>Vefþróun</dd>
+            <dd>tölvubraut hönnun</dd>
+        </dl>
+    </section>
+    </div>
+    <h3 class="centreEfst">&copy; 2023 AK <img src="images/logo.svg" alt="image"></h3>
+    <p class="centreEfst"><a href=#top class="button bgc">Efst á síðu</a></p>
+  </footer>
+  <input class="hidden" id="toggle" type="checkbox"/>
+  <section class="chatbox">
+    <form>
+      <label for="toggle"><h3>Spjallborð</h3></label>
+      <p>Hvað getum við gert fyrir þig?</p>
+      <p>
+        Nafn: <input class="checkbox" type="text" name="name" placeholder="name" required>
+      </p>
+
+      <p class="checkbox">Val:</p>
+      <label class="checkbox"><input type="radio" name="kyn" value="hann" checked>Val 1</label>
+      <label class="checkbox-border"><input type="radio" name="kyn" value="hún">Val 2</label>
+      <label class="checkbox-border"><input type="radio" name="kyn" value="hán">Val 3</label>
+      <p>
+        Skilaboð: <textarea class="chat" rows="5" cols="50" name="comment" placeholder="Enter text here..." required></textarea>
+      </p>
+      <div class="centre buttonPadding"><input type="submit" name="submit" value="Senda skilaboð"></div>
+    </form>
+  </section>
+  <div id="popup" class="overlay">
+    <div class="popup">
+      <h1 class="centre">Skrá inn</h1>
+      <a class="closeButton" href="#closed">&#10006;</a>
+      <form action="">
+        <p class="centre">
+          Tölvupóstur: <input class="checkbox" type="email" name="mail" placeholder="email-address" required>
+        </p>
+        <p class="centre">
+          Lykilorð: <input class="checkbox" type="password" name="password" placeholder="password" required>
+        </p>
+
+        <div class="centre buttonPadding"><input type="submit" name="submit" value="Skrá inn"></div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
